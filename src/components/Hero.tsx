@@ -47,7 +47,7 @@ const Hero = () => {
           <Button 
             onClick={() => scrollToSection('family-moments')}
             variant="outline" 
-            className="border-blue-300 text-blue-100 hover:bg-blue-800/50 px-8 py-3 text-lg"
+            className="border-blue-600 text-blue-600 bg-transparent hover:bg-blue-600 hover:text-white px-8 py-3 text-lg"
           >
             See Our Family
           </Button>

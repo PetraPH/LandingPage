@@ -29,8 +29,7 @@ const SocialMedia = () => {
 
         <div className="border-t border-blue-400 pt-8">
           <p className="text-blue-200 text-lg">
-            © 2024 Petra Christian Centre Port Harcourt. 
-            <span className="block mt-2">Built with love for our church family.</span>
+            © 2025 Petra Christian Centre Port Harcourt
           </p>
         </div>
       </div>
