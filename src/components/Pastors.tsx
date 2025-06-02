@@ -1,6 +1,5 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Users } from "lucide-react";
 
 const Pastors = () => {
   const pastors = [
@@ -48,12 +47,6 @@ const Pastors = () => {
                   <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                     <h3 className="text-xl font-bold mb-1">{pastor.name}</h3>
                     <p className="text-blue-200">{pastor.title}</p>
-                  </div>
-                </div>
-                <div className="p-6 bg-gradient-to-br from-blue-50 to-purple-50">
-                  <div className="flex items-center justify-center">
-                    <Users className="h-6 w-6 text-blue-600 mr-2" />
-                    <span className="text-gray-700 font-medium">Servant Leader</span>
                   </div>
                 </div>
               </CardContent>
