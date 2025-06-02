@@ -1,6 +1,6 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Instagram } from "lucide-react";
+import { Instagram, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const FamilyMoments = () => {
@@ -8,17 +8,20 @@ const FamilyMoments = () => {
     {
       id: 1,
       url: "https://www.instagram.com/reel/C8zPQZHoc-h/?igsh=azRsanNuZnRzbm4z",
-      title: "Family Worship"
+      title: "Family Worship",
+      thumbnail: "https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     {
       id: 2,
       url: "https://www.instagram.com/reel/DIOhse9Ik20/?igsh=MWdndndneGEyajRrZA==",
-      title: "Community Fellowship"
+      title: "Community Fellowship",
+      thumbnail: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     {
       id: 3,
       url: "https://www.instagram.com/reel/DKFM_JUIqLt/?igsh=MXJvcXp3bzVkanh1dw==",
-      title: "Church Family"
+      title: "Church Family",
+      thumbnail: "https://images.unsplash.com/photo-1517022812141-23620dba5c23?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     }
   ];
 
@@ -37,14 +40,28 @@ const FamilyMoments = () => {
 
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           {reels.map((reel) => (
-            <Card key={reel.id} className="overflow-hidden hover:shadow-lg transition-shadow">
+            <Card key={reel.id} className="overflow-hidden hover:shadow-lg transition-shadow group cursor-pointer">
               <CardContent className="p-0">
-                <div className="bg-gradient-to-br from-pink-100 to-purple-100 p-8 text-center">
-                  <Instagram className="h-12 w-12 text-pink-500 mx-auto mb-4" />
+                <div className="relative">
+                  <img 
+                    src={reel.thumbnail} 
+                    alt={reel.title}
+                    className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors duration-300 flex items-center justify-center">
+                    <div className="bg-pink-500 rounded-full p-4 group-hover:scale-110 transition-transform duration-300">
+                      <Play className="h-8 w-8 text-white fill-current" />
+                    </div>
+                  </div>
+                  <div className="absolute top-4 right-4">
+                    <Instagram className="h-6 w-6 text-white" />
+                  </div>
+                </div>
+                <div className="p-6 text-center">
                   <h3 className="text-lg font-semibold text-gray-900 mb-3">{reel.title}</h3>
                   <Button 
                     onClick={() => window.open(reel.url, '_blank')}
-                    className="bg-pink-500 hover:bg-pink-600 text-white"
+                    className="bg-pink-500 hover:bg-pink-600 text-white w-full"
                   >
                     Watch on Instagram
                   </Button>
