@@ -98,4 +98,22 @@
   body {
     @apply bg-background text-foreground;
   }
+  .hero-bg {
+    background-position-x: center;
+    background-position-y: center;
+  }
+  .about-bg {
+    background-position-x: center;
+    background-position-y: center;
+  }
+  @media screen and (min-width: 1200px) {
+    .hero-bg {
+      background-position-x: center;
+      background-position-y: -350px;
+    }
+    .about-bg{
+      background-position-x: center;
+      background-position-y: -200px;
+    }
+  }
 }

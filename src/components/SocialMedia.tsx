@@ -4,9 +4,9 @@ import { Button } from "@/components/ui/button";
 
 const SocialMedia = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-blue-600 to-purple-600 text-white">
+    <section className="py-20 bg-gradient-to-br from-slate-950 to-slate-600 text-white">
       <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-        <Heart className="mx-auto h-12 w-12 text-red-300 mb-6" />
+<img src="/images/logo.png" className="w-24 h-24 mx-auto block"/>
         
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
           Stay Connected

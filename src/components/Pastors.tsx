@@ -6,17 +6,17 @@ const Pastors = () => {
     {
       name: "Ayo Ajani",
       title: "Senior Pastor",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+      image: "/images/pastor-ayo.jpg"
     },
     {
       name: "Adeola Ajani",
       title: "Co-senior Pastor",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b3de?w=400&h=400&fit=crop&crop=face"
+      image: "/images/pastor-adeola.jpg"
     },
     {
       name: "Abraham Ademola",
       title: "Resident Pastor",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face"
+      image: "/images/pastor-abraham.jpg"
     }
   ];
 
@@ -30,7 +30,7 @@ const Pastors = () => {
           <p className="text-lg text-gray-600 mb-6">
             Our dedicated spiritual leaders guiding our church family
           </p>
-          <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
+          <div className="w-24 h-1 bg-yellow-500 mx-auto"></div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -41,11 +41,11 @@ const Pastors = () => {
                   <img 
                     src={pastor.image} 
                     alt={pastor.name}
-                    className="w-full h-64 object-cover"
+                    className="w-full h-[24rem] object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                    <h3 className="text-xl font-bold mb-1">{pastor.name}</h3>
+                    <h3 className="text-xl font-bold mb-1">Pastor {pastor.name}</h3>
                     <p className="text-blue-200">{pastor.title}</p>
                   </div>
                 </div>
