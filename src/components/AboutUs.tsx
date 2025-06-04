@@ -41,16 +41,17 @@ const AboutUs = () => {
               }}
             >
               {/* Overlay for better text readability */}
-              <div className="absolute inset-0 bg-gradient-to-br from-yellow-900/70 to-yellow-700/40 rounded-2xl"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-yellow-950/60 to-yellow-900/60 rounded-2xl"></div>
 
               <div className="relative z-10">
-                {/* <div className="bg-white rounded-full p-6 inline-block mb-6 shadow-lg">
-                  <Heart className="h-12 w-12 text-red-500" />
-                </div> */}
+                <img
+                  src="/images/logo.png"
+                  className="w-28 h-28 mx-auto block"
+                />
                 <h3 className="text-2xl font-bold text-white mb-4">
                   Love • Family • Community
                 </h3>
-                <p className="text-blue-100 text-lg">
+                <p className="text-white text-lg">
                   Experience the warmth of Christian fellowship and grow
                   together in faith.
                 </p>

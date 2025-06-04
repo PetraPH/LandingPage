@@ -101,17 +101,24 @@
   .hero-bg {
     background-position-x: center;
     background-position-y: center;
+    background-size: 200% 100%;
   }
   .about-bg {
     background-position-x: center;
     background-position-y: center;
   }
+  @media screen and (min-width: 600px) {
+    .hero-bg {
+      background-size: cover;
+    }
+  }
   @media screen and (min-width: 1200px) {
     .hero-bg {
       background-position-x: center;
       background-position-y: -350px;
+      background-size: cover;
     }
-    .about-bg{
+    .about-bg {
       background-position-x: center;
       background-position-y: -200px;
     }

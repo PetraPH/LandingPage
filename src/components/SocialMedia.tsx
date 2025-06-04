@@ -8,11 +8,11 @@ const SocialMedia = () => {
       <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
 <img src="/images/logo.png" className="w-24 h-24 mx-auto block"/>
         
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">
+        <h2 className="text-2xl md:text-4xl font-bold mb-4">
           Stay Connected
         </h2>
         
-        <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+        <p className="text-lg md:text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
           Join our online community and stay updated with church events, 
           sermons, and family moments
         </p>
@@ -23,7 +23,7 @@ const SocialMedia = () => {
             className="bg-pink-500 hover:bg-pink-600 text-white px-8 py-3 text-lg"
           >
             <Instagram className="h-5 w-5 mr-2" />
-            Follow on Instagram
+            Follow us on Instagram
           </Button>
         </div>
 

@@ -37,9 +37,7 @@ const Location = () => {
                   <h4 className="font-semibold text-slate-950 mb-2">
                     Service Times
                   </h4>
-                  <p className="text-slate-600">
-                    Sunday Service: 9:00AM
-                  </p>
+                  <p className="text-slate-600">Sunday Service: 9:00AM</p>
                   <p className="text-slate-600">
                     Wednesday Bible Study: 6:00 PM
                   </p>
@@ -47,7 +45,18 @@ const Location = () => {
                 <div>
                   <h4 className="font-semibold text-slate-950 mb-2">Contact</h4>
                   <p className="text-slate-600">
-                    Follow us on Instagram for updates
+                    <button
+                    className="underline text-pink-600"
+                      onClick={() =>
+                        window.open(
+                          "https://instagram.com/petracc_portharcourt",
+                          "_blank"
+                        )
+                      }
+                    >
+                      Follow us
+                    </button>{" "}
+                    on Instagram for updates
                   </p>
                 </div>
               </div>
