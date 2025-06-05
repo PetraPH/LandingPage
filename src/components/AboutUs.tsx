@@ -37,7 +37,7 @@ const AboutUs = () => {
             <div
               className="bg-cover bg-no-repeat rounded-2xl p-8 text-center relative overflow-hidden about-bg lg:min-h-[20rem] flex justify-center items-center flex-col min-h-full"
               style={{
-                backgroundImage: `url('/images/about.jpg')`,
+                backgroundImage: `url('https://res.cloudinary.com/messengerapptask/image/upload/v1749146981/petracc_ph/about_eyle00.jpg')`,
               }}
             >
               {/* Overlay for better text readability */}
@@ -45,7 +45,7 @@ const AboutUs = () => {
 
               <div className="relative z-10">
                 <img
-                  src="/images/logo.png"
+                  src="https://res.cloudinary.com/messengerapptask/image/upload/v1749146964/petracc_ph/logo_p9huue.png"
                   className="w-28 h-28 mx-auto block"
                 />
                 <h3 className="text-2xl font-bold text-white mb-4">

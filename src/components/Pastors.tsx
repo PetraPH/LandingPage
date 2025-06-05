@@ -6,19 +6,22 @@ const Pastors = () => {
     {
       name: "Ayo Ajani",
       title: "Senior Pastor",
-      image: "/images/pastor-ayo.jpg"
+      image:
+        "https://res.cloudinary.com/messengerapptask/image/upload/v1749147018/petracc_ph/pastor-ayo_rg7o57.jpg",
     },
     {
       name: "Adeola Ajani",
       title: "Co-senior Pastor",
-      image: "/images/pastor-adeola.jpg"
+      image:
+        "https://res.cloudinary.com/messengerapptask/image/upload/v1749147857/petracc_ph/WhatsApp_Image_2025-06-05_at_7.23.43_PM_bvqz3y.jpg",
     },
     {
       name: "Abraham Ademola",
       title: "Resident Pastor",
-      image: "/images/pastor-abraham.jpg"
-    }
-  ];
+      image:
+        "https://res.cloudinary.com/messengerapptask/image/upload/v1749147010/petracc_ph/ig-2_mfw9cu.jpg",
+    },
+  ]
 
   return (
     <section id="pastors" className="py-20 bg-white">

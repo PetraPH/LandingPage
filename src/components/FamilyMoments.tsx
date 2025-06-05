@@ -8,19 +8,22 @@ const FamilyMoments = () => {
       id: 1,
       url: "https://www.instagram.com/reel/C8zPQZHoc-h/?igsh=azRsanNuZnRzbm4z",
       title: "Family Worship",
-      thumbnail: "/images/ig-1.jpg",
+      thumbnail:
+        "https://res.cloudinary.com/messengerapptask/image/upload/v1749147010/petracc_ph/ig-2_mfw9cu.jpg",
     },
     {
       id: 2,
       url: "https://www.instagram.com/reel/DIOhse9Ik20/?igsh=MWdndndneGEyajRrZA==",
       title: "Community Fellowship",
-      thumbnail: "/images/ig-2.jpg",
+      thumbnail:
+        "https://res.cloudinary.com/messengerapptask/image/upload/v1749147009/petracc_ph/ig-1_pm4alh.jpg",
     },
     {
       id: 3,
       url: "https://www.instagram.com/reel/DKFM_JUIqLt/?igsh=MXJvcXp3bzVkanh1dw==",
       title: "Church Family",
-      thumbnail: "/images/ig-3.jpg",
+      thumbnail:
+        "https://res.cloudinary.com/messengerapptask/image/upload/v1749147004/petracc_ph/ig-3_q0t8kc.jpg",
     },
   ]
 

@@ -13,14 +13,17 @@ const Hero = () => {
       <div
         className="absolute inset-0 bg-no-repeat hero-bg"
         style={{
-          backgroundImage: `url('/images/hero.jpg')`,
+          backgroundImage: `url('https://res.cloudinary.com/messengerapptask/image/upload/v1749147024/petracc_ph/hero_hsigwj.jpg')`,
         }}
       />
       <div className="absolute inset-0 bg-gradient-to-br from-yellow-950/90 to-yellow-950/60"></div>
 
       <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="mb-2">
-          <img src="/images/logo.png" className="w-28 h-28 mx-auto block" />
+          <img
+            src="https://res.cloudinary.com/messengerapptask/image/upload/v1749146964/petracc_ph/logo_p9huue.png"
+            className="w-28 h-28 mx-auto block"
+          />
         </div>
 
         <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
