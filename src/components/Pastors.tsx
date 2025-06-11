@@ -19,7 +19,7 @@ const Pastors = () => {
       name: "Abraham Ademola",
       title: "Resident Pastor",
       image:
-        "https://res.cloudinary.com/messengerapptask/image/upload/v1749147010/petracc_ph/ig-2_mfw9cu.jpg",
+        "https://res.cloudinary.com/messengerapptask/image/upload/v1749147017/petracc_ph/pastor-abraham_wjea5p.jpg",
     },
   ]
 

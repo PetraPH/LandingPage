@@ -28,7 +28,8 @@ const Hero = () => {
 
         <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
           Welcome to
-          <span className="block text-yellow-300">Petra Christian Centre</span>
+          <span className="block text-yellow-300">Petracc</span>
+          Port Harcourt
         </h1>
 
         <p className="text-lg sm:text-xl md:text-2xl text-white mb-8 max-w-3xl mx-auto leading-relaxed">
