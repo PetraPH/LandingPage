@@ -28,7 +28,7 @@ const Hero = () => {
 
         <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
           Welcome to
-          <span className="block text-yellow-300">Petracc</span>
+          <span className="block text-yellow-300">Petra Christian Center</span>
           Port Harcourt
         </h1>
 
